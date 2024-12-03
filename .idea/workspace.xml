@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c72c55b-8d52-4b4a-bb32-9dff89538c30" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="46223df8-b43d-449a-b775-02972fd2fe52" name="localhost" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/usr/share/phpmyadmin" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php8.3">
+    <include_path>
+      <path value="/usr/bin" />
+    </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2nWf3HTlwTGz5BSuZUvDo9CHuOU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.php.executor": "Debug",
+    "PHP Script.DatabaseConnector.php.executor": "Run",
+    "PHP Script.contact.php.executor": "Run",
+    "PHP Script.index.php.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/ddosyaa/PhpstormProjects/App/templates/fonts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/fonts" />
+      <recent name="$PROJECT_DIR$/templates/libs/NivoSlider" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c72c55b-8d52-4b4a-bb32-9dff89538c30" name="Changes" comment="" />
+      <created>1729093551381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729093551381</updated>
+      <workItem from="1729093552422" duration="161000" />
+      <workItem from="1729093719127" duration="812000" />
+      <workItem from="1730300054509" duration="7787000" />
+      <workItem from="1730662879019" duration="7183000" />
+      <workItem from="1730713528434" duration="3965000" />
+      <workItem from="1730717508115" duration="450000" />
+      <workItem from="1730717967997" duration="178000" />
+      <workItem from="1730718182589" duration="336000" />
+      <workItem from="1730798713197" duration="3388000" />
+      <workItem from="1730905589407" duration="799000" />
+      <workItem from="1730911208890" duration="29176000" />
+      <workItem from="1731243674824" duration="3391000" />
+      <workItem from="1731251673415" duration="618000" />
+      <workItem from="1731259449833" duration="691000" />
+      <workItem from="1731503078390" duration="620000" />
+      <workItem from="1731509568886" duration="449000" />
+      <workItem from="1731499270228" duration="5922000" />
+      <workItem from="1731604773348" duration="624000" />
+      <workItem from="1731608855518" duration="711000" />
+      <workItem from="1731969983240" duration="533000" />
+      <workItem from="1731927310662" duration="2476000" />
+      <workItem from="1732010184805" duration="271000" />
+      <workItem from="1732012229141" duration="2383000" />
+      <workItem from="1732054485091" duration="138000" />
+      <workItem from="1733184562583" duration="706000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
