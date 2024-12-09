@@ -4,18 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c72c55b-8d52-4b4a-bb32-9dff89538c30" name="Changes" comment="" />
+    <list default="true" id="5c72c55b-8d52-4b4a-bb32-9dff89538c30" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/DatabaseConnector.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/DatabaseConnector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/libs/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libs/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/libs/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libs/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/libs/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libs/vendor/composer/installed.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <execution />
+    <pharConfigPath>$PROJECT_DIR$/templates/libs/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DooSYaa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DooSYaa/PHPRepository.git&quot;,
+    &quot;accountId&quot;: &quot;7ad570eb-fd40-475c-839b-5445d4450bdb&quot;
+  }
+}</component>
   <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
   <component name="PhpServers">
     <servers>
@@ -26,13 +50,17 @@
       </server>
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php8.3">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.4">
     <include_path>
+      <path value="$PROJECT_DIR$/../../../../usr/bin" />
       <path value="/usr/bin" />
+      <path value="$PROJECT_DIR$/templates/libs/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/templates/libs/vendor/composer" />
+      <path value="$PROJECT_DIR$/templates/libs/vendor/smarty/smarty" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -44,13 +72,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JavaScript Debug.index.php.executor": "Debug",
+    "JavaScript Debug.index.php.executor": "Run",
     "PHP Script.DatabaseConnector.php.executor": "Run",
     "PHP Script.contact.php.executor": "Run",
     "PHP Script.index.php.executor": "Run",
+    "PHP Script.login.php.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm": "WSL",
+    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm": "WSL",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ddosyaa/PhpstormProjects/App/templates/fonts",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/ddosyaa/app/PHPRepository/templates/libs/composer.json",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,8 +102,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
-        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PS-243.21565.202" />
+        <option value="bundled-php-predefined-a98d8de5180a-5fbe0c30323e-com.jetbrains.php.sharedIndexes-PS-243.21565.202" />
       </set>
     </attachedChunks>
   </component>
@@ -107,6 +140,11 @@
       <workItem from="1732012229141" duration="2383000" />
       <workItem from="1732054485091" duration="138000" />
       <workItem from="1733184562583" duration="706000" />
+      <workItem from="1733525958370" duration="3384000" />
+      <workItem from="1733595244150" duration="824000" />
+      <workItem from="1733596085947" duration="12000" />
+      <workItem from="1733661776153" duration="1696000" />
+      <workItem from="1733782080245" duration="4974000" />
     </task>
     <servers />
   </component>
