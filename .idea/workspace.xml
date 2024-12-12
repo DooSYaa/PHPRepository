@@ -10,9 +10,7 @@
       <change beforePath="$PROJECT_DIR$/core/DatabaseConnector.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/DatabaseConnector.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/libs/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libs/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/libs/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libs/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/libs/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/libs/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/DooSYaa/PHPRepository.git&quot;,
-    &quot;accountId&quot;: &quot;7ad570eb-fd40-475c-839b-5445d4450bdb&quot;
+    &quot;accountId&quot;: &quot;b9b8d0f0-d4e0-465a-a026-660a4c38df19&quot;
   }
 }</component>
   <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
@@ -50,7 +48,7 @@
       </server>
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.4">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
     <include_path>
       <path value="$PROJECT_DIR$/../../../../usr/bin" />
       <path value="/usr/bin" />
@@ -70,29 +68,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.php.executor": "Run",
-    "PHP Script.DatabaseConnector.php.executor": "Run",
-    "PHP Script.contact.php.executor": "Run",
-    "PHP Script.index.php.executor": "Run",
-    "PHP Script.login.php.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm": "WSL",
-    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm": "WSL",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/ddosyaa/app/PHPRepository/templates/libs/composer.json",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.login.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.DatabaseConnector.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.contact.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.login.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm&quot;: &quot;WSL&quot;,
+    &quot;credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm&quot;: &quot;WSL&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ddosyaa/PhpstormProjects/PHPRepository&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/fonts" />
@@ -102,8 +101,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PS-243.21565.202" />
-        <option value="bundled-php-predefined-a98d8de5180a-5fbe0c30323e-com.jetbrains.php.sharedIndexes-PS-243.21565.202" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.24807.17" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.24807.17" />
       </set>
     </attachedChunks>
   </component>
@@ -145,11 +144,26 @@
       <workItem from="1733596085947" duration="12000" />
       <workItem from="1733661776153" duration="1696000" />
       <workItem from="1733782080245" duration="4974000" />
+      <workItem from="1733815669077" duration="700000" />
+      <workItem from="1733816406002" duration="657000" />
+      <workItem from="1733818480817" duration="3789000" />
+      <workItem from="1733844482807" duration="5334000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

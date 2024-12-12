@@ -2,7 +2,7 @@
 class DatabaseConnector
 {
     private $host = "localhost";
-    private $dbname = "kakadb";
+    private $dbname = "kakaDB";
     private $user = "root";
     private $password = "502914";
     public $conn;
@@ -13,7 +13,7 @@ class DatabaseConnector
         {
             $this->conn = new PDO("mysql:host=$this->host;dbname=$this->dbname", $this->user, $this->password);
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "Connected successfully";
+            echo "Connected successfully \n";
         }
         catch(PDOException $e)
         {

@@ -6,6 +6,7 @@
     $smarty->setTemplateDir('templates/');
     $smarty->setCompileDir('templates/tmp');
 
+
     $username = 'DooSyaa';
     $email = 'doosyaa@example.com';
 
@@ -16,6 +17,7 @@
             $smarty->display('homePage.tpl');
             break;
         case 'login':
+            include __DIR__ . '/services/login.php';
             $smarty->display('login.tpl');
             break;
         case 'logout':
