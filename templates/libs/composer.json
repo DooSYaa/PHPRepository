@@ -1,4 +1,4 @@
-{
+  {
     "require": {
         "smarty/smarty": "^5.4",
       "ext-pdo": "*"

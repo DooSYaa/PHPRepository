@@ -1,15 +1,20 @@
 <?php
+session_Start();
     require_once __DIR__ . '/templates/libs/vendor/autoload.php';
     use Smarty\Smarty;
     $smarty = new Smarty();
 
-    $smarty->setTemplateDir('templates/');
+    $smarty->setTemplateDir('templates');
     $smarty->setCompileDir('templates/tmp');
+    $smarty->setCOnfigDir('config');
+    $smarty->setCacheDir('cache');
 
-
-    $username = 'DooSyaa';
-    $email = 'doosyaa@example.com';
-
+if(isset($_SESSION['userName'])) {
+    $smarty->assign('userName', $_SESSION['userName']);
+}
+else{
+    $smarty->assign('userName', null);
+}
     $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
     switch ($page) {
@@ -21,8 +26,6 @@
             $smarty->display('login.tpl');
             break;
         case 'logout':
-            $smarty->assign('username', $username);
-            $smarty->assign('email', $email);
             $smarty->display('logout.tpl');
             break;
         case 'access_link':
